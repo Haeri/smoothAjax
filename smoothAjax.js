@@ -2,16 +2,16 @@
 //© 2014 by HaeriStudios
 
 // Parameter info:
-// holder	(id/class name): 		The parent <div>
-// loader	(id/class name): 		<div> where it should be loaded
-// loadFrom	(src + id/class name):	directory of file from where it should be loaded + name of <div>
-// eq		(int):					specify which <div> if found multiple with same name. (0-indexed)
-// animHeight(bool): 				should the height be animated?
-// animWidth(bool): 				should the width be animated?	
-// speed	(int):					animation speed
+// holder	(id/class name):		The parent <div>
+// loader	(id/class name):		<div> where it should be loaded
+// loadFrom	(src + id/class name):		directory of file from where it should be loaded + name of <div>
+// eq		(int):				specify which <div> if found multiple with same name. (0-indexed)
+// animHeight	(bool): 			should the height be animated?
+// animWidth	(bool):				should the width be animated?	
+// speed	(int):				animation speed
 
-//callback	(function):				calls a set function when content has finished loading in.(optional)
-//callback2 (function):				calls a set function when content has finished fading in.(optional)
+//callback	(function):			calls a set function when content has finished loading in.(optional)
+//callback2	(function):			calls a set function when content has finished fading in.(optional)
 
 function smoothAjax(holder, loader, loadFrom, eq,  animHeight, animWidth, speed, callback, callback2) {
 	
