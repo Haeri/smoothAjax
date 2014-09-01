@@ -55,7 +55,7 @@ function smoothAjax(holder, loader, loadFrom, eq,  animHeight, animWidth, speed,
 				$(loader).css("position","initial");
 				$(loader).fadeIn();
 				$(holder).css("width","initial");
-				if (typeof callback2 != 'undefined' && call2 = false) {
+				if (typeof callback2 != 'undefined' && call2 == false) {
 					callback2();
 					call2 = true;
 				}
@@ -70,7 +70,7 @@ function smoothAjax(holder, loader, loadFrom, eq,  animHeight, animWidth, speed,
 				$(loader).css("position","initial");
 				$(loader).fadeIn();
 				$(holder).css("height","initial");
-				if (typeof callback2 != 'undefined' && call2 = false) {
+				if (typeof callback2 != 'undefined' && call2 == false) {
 					callback2();
 					call2 = true;
 				}
